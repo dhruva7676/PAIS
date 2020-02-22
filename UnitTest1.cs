@@ -12,7 +12,7 @@ using System.Linq;
 using System.Threading;
 namespace PAIS
 {
-    [TestFixture]
+     [TestClass]
     public class SRN
     {
         [Test]
