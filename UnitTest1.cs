@@ -95,13 +95,13 @@ namespace PAIS
             Task.Delay(2000).Wait();
             driver.FindElement(By.Id("HyperLinkLogout")).Click();
             Task.Delay(2000).Wait();
-            driver.Close();
+            
         }
         [Test]
         public void HOD()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            IWebDriver driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fasu6");
@@ -183,13 +183,13 @@ namespace PAIS
             Task.Delay(2000).Wait();
             driver.FindElement(By.Id("HyperLinkLogout")).Click();
             Task.Delay(2000).Wait();
-            driver.Close();
+            //driver.Close();
         }
         [Test]
         public void HOI()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            IWebDriver driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fassu2");
@@ -275,7 +275,7 @@ namespace PAIS
             Task.Delay(2000).Wait();
             driver.FindElement(By.Id("HyperLinkLogout")).Click();
             Task.Delay(2000).Wait();
-            driver.Close();
+            //driver.Close();
         }
     
         [Test]
@@ -286,7 +286,7 @@ namespace PAIS
             //driver.Navigate().GoToUrl(Url);
 
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            IWebDriver driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             //ChromeOptions options = new ChromeOptions();
@@ -381,13 +381,13 @@ namespace PAIS
             Task.Delay(2000).Wait();
             driver.FindElement(By.Id("HyperLinkLogout")).Click();
             Task.Delay(2000).Wait();
-            driver.Close();
+            //driver.Close();
         }
         [Test]
         public void F_Dir()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            IWebDriver driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
            
             //string Url = "http://172.16.18.106/PAIS_Selenium/";
@@ -485,13 +485,13 @@ namespace PAIS
             Task.Delay(2000).Wait();
             driver.FindElement(By.Id("HyperLinkLogout")).Click();
             Task.Delay(2000).Wait();
-            driver.Close();
+            //driver.Close();
         }
         [Test]
         public void DDP()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            IWebDriver driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fasu3");
@@ -577,13 +577,13 @@ namespace PAIS
             Task.Delay(2000).Wait();
             driver.FindElement(By.Id("HyperLinkLogout")).Click();
             Task.Delay(2000).Wait();
-            driver.Close();
+            //driver.Close();
         }
         [Test]
         public void PD()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            IWebDriver driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fasu5");
@@ -669,14 +669,14 @@ namespace PAIS
             Task.Delay(2000).Wait();
             driver.FindElement(By.Id("HyperLinkLogout")).Click();
             Task.Delay(2000).Wait();
-            driver.Close();
+            //driver.Close();
         }
 
         [Test]
         public void Dispatch()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            IWebDriver driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fassv3");
@@ -762,14 +762,14 @@ namespace PAIS
             Task.Delay(2000).Wait();
             driver.FindElement(By.Id("HyperLinkLogout")).Click();
             Task.Delay(2000).Wait();
-            driver.Close();
+            //driver.Close();
         }
 
         [Test]
         public void Head()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            IWebDriver driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fasu6");
@@ -859,13 +859,13 @@ namespace PAIS
             Task.Delay(2000).Wait();
             driver.FindElement(By.Id("HyperLinkLogout")).Click();
             Task.Delay(2000).Wait();
-            driver.Close();
+            //driver.Close();
         }
         [Test]
         public void buyer()
         {
             string Url = "http://172.16.18.106/PAIS_Selenium/";
-            IWebDriver driver = new ChromeDriver();
+            //IWebDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(Url);
 
             driver.FindElement(By.Id("ContentPlaceHolder1_TextBoxEmailId")).SendKeys("fassv3");
